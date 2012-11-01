@@ -2,8 +2,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>net.sf.devtool</groupId>
-	<artifactId>net.sf.devtool.svgd</artifactId>
+	<groupId>gh.funthomas424242</groupId>
+	<artifactId>gh.funthomas424242.svgd</artifactId>
 	<version>1.0.0.qualifier</version>
 	<packaging>eclipse-plugin</packaging>
 
@@ -49,7 +49,7 @@
 					<!--pomDependencies>consider</pomDependencies> <ignoreTychoRepositories>true</ignoreTychoRepositories -->
 					<target>
 						<artifact>
-							<groupId>net.sf.devtool</groupId>
+							<groupId>gh.funthomas424242</groupId>
 							<artifactId>target-platform</artifactId>
 							<version>1.0.0.qualifier</version>
 						</artifact>

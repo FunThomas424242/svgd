@@ -8,7 +8,9 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package net.sf.devtool.svgd.generator.common;
+package gh.funthomas424242.svgd.generator.common;
+
+import gh.funthomas424242.svgd.generator.Main;
 
 import java.io.IOException;
 import java.net.URL;
@@ -16,7 +18,6 @@ import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.List;
 
-import net.sf.devtool.svgd.generator.Main;
 
 import org.eclipse.core.resources.IContainer;
 import org.eclipse.core.runtime.IPath;

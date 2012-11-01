@@ -1,6 +1,6 @@
 [comment encoding = UTF-8 /]
 [module main('http://devtool.sourceforge.net/language/svgd')/]
-[import net::sf::devtool::svgd::generator::figur/]
+[import gh::funthomas424242::svgd::generator::figur/]
 
 [template public main(model : SVGModel)]
 [comment @main /]

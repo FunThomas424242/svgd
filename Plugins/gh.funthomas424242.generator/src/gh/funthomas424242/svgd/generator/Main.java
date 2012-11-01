@@ -8,7 +8,7 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package net.sf.devtool.svgd.generator;
+package gh.funthomas424242.svgd.generator;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,7 +35,7 @@ public class Main extends AbstractAcceleoGenerator {
      *
      * @generated
      */
-    public static final String MODULE_FILE_NAME = "/net/sf/devtool/svgd/generator/main";
+    public static final String MODULE_FILE_NAME = "/gh/funthomas424242/svgd/generator/main";
     
     /**
      * The name of the templates that are to be generated.

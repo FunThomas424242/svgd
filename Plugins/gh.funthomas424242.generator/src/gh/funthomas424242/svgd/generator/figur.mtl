@@ -1,8 +1,8 @@
 [comment encoding = UTF-8 /]
 [module figur('http://devtool.sourceforge.net/language/svgd')]
-[import net::sf::devtool::svgd::generator::rechteck/]
-[import net::sf::devtool::svgd::generator::kreis/]
-[import net::sf::devtool::svgd::generator::linie/]
+[import gh::funthomas424242::svgd::generator::rechteck/]
+[import gh::funthomas424242::svgd::generator::kreis/]
+[import gh::funthomas424242::svgd::generator::linie/]
 
 
 [template public generiereFigur(figure : Figure, x:Real, y:Real)]

@@ -8,7 +8,10 @@
  * Contributors:
  *     Obeo - initial API and implementation
  *******************************************************************************/
-package net.sf.devtool.svgd.generator.popupMenus;
+package gh.funthomas424242.svgd.generator.popupMenus;
+
+import gh.funthomas424242.svgd.generator.Activator;
+import gh.funthomas424242.svgd.generator.common.GenerateAll;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -28,8 +31,6 @@ import org.eclipse.jface.action.IAction;
 import org.eclipse.jface.operation.IRunnableWithProgress;
 import org.eclipse.jface.viewers.ISelection;
 import org.eclipse.jface.viewers.IStructuredSelection;
-import net.sf.devtool.svgd.generator.Activator;
-import net.sf.devtool.svgd.generator.common.GenerateAll;
 import org.eclipse.ui.IActionDelegate;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.actions.ActionDelegate;

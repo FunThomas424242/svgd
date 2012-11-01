@@ -11,7 +11,7 @@
                <groupMarker name="acceleo"/> 
          </menu>
          <action
-               class="net.sf.devtool.svgd.generator.popupMenus.AcceleoGenerateSVGDtoSVGAction"
+               class="gh.funthomas424242.svgd.generator.popupMenus.AcceleoGenerateSVGDtoSVGAction"
                enablesFor="+"
                id="net.sf.devtool.svgd.generator.popupMenus.acceleoGenerateSVGDtoSVGAction"
                icon="icons/default.gif"

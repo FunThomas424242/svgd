@@ -13,7 +13,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <package
             uri="http://devtool.sourceforge.net/language/svgd"
-            class="net.sf.devtool.svgd.SvgdPackage"
+            class="gh.funthomas424242.svgd.SvgdPackage"
             genModel="metamodel/svgd.genmodel"/>
    </extension>
 
