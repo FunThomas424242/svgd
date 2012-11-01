@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>net.sf.devtool</groupId>
+	<artifactId>net.sf.devtool.svgd</artifactId>
+	<version>1.0.0.qualifier</version>
+	<packaging>eclipse-plugin</packaging>
+
+
+	<prerequisites>
+		<maven>3.0</maven>
+	</prerequisites>
+
+	<properties>
+		<tycho-version>0.13.0</tycho-version>
+		<tycho.test.jvmArgs>-Xmx512m -XX:MaxPermSize=256m</tycho.test.jvmArgs>
+		<!-- deprecated tycho.targetPlatform>C:/Program Files/eclipse/eclipse-SDK-3.7.1-win32-test</tycho.targetPlatform -->
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>indigo</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/indigo</url>
+		</repository>
+	</repositories>
+
+	<!-- Tycho projects should by not contain dependency section, because tycho 
+		use the MANIFEST.MF to resolve dependencies. -->
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+				<configuration>
+
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.sonatype.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+					<resolver>p2</resolver>
+					<!--pomDependencies>consider</pomDependencies> <ignoreTychoRepositories>true</ignoreTychoRepositories -->
+					<target>
+						<artifact>
+							<groupId>net.sf.devtool</groupId>
+							<artifactId>target-platform</artifactId>
+							<version>1.0.0.qualifier</version>
+						</artifact>
+					</target>
+					<environments>
+						<environment>
+							<arch>x86</arch>
+						</environment>
+					</environments>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
