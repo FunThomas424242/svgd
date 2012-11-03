@@ -23,7 +23,7 @@ TOKENSTYLES {
 	"SVGModel" COLOR #7F0055, BOLD;
 	"fileName" COLOR #7F0055, BOLD;
 	"Linie" COLOR #7F0055, BOLD;
-	"linien-art" COLOR #7F0055, BOLD;
+	"linien-art", "füllung" COLOR #7F0055, BOLD;
 	"x2" COLOR #7F0055, BOLD;
 	"y2" COLOR #7F0055, BOLD;
 }
@@ -34,7 +34,7 @@ SVGModel ::= "SVGModel" "lang-version" version['"','"']
 	"fileName" "=" fileName['"','"']  "hoehe" "=" hoehe['"','"']  "breite" "=" breite['"','"'] 
 	("imports" imports )? "{"  (elements)+  "}";
 Import ::= ("import" importedRessource['"','"'] ".")+ ;
-Figure ::= "Figur" "name" "=" name['"','"'] "{" "x" "=" x['"','"']  "y" "=" y['"','"'] (forms )+  "}" ;
+Figure ::= "Figur" "name" "=" name['"','"'] "auf" "x" "=" x['"','"']  "y" "=" y['"','"']  "{"  (forms )+  "}" ;
 EmbedForm ::= "form" form['"','"'] "auf" "x" "=" x['"','"']  "y" "=" y['"','"'] ".";
 Rechteck ::= "Rechteck" "name" "=" name['"','"'] 
 	"{" "hoehe" "=" hoehe['"','"']  "breite" "=" breite['"','"']  areaprops lineprops "}";
