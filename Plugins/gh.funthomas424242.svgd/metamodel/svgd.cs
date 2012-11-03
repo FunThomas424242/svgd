@@ -23,7 +23,7 @@ TOKENSTYLES {
 	"SVGModel" COLOR #7F0055, BOLD;
 	"fileName" COLOR #7F0055, BOLD;
 	"Linie" COLOR #7F0055, BOLD;
-	"linien-art", "füllung" COLOR #7F0055, BOLD;
+	"linien-art", "füllung:" COLOR #7F0055, BOLD;
 	"x2" COLOR #7F0055, BOLD;
 	"y2" COLOR #7F0055, BOLD;
 }
