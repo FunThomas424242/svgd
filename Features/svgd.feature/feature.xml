@@ -25,13 +25,6 @@
          unpack="false"/>
 
    <plugin
-         id="gh.funthomas424242.svgd.generator"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="gh.funthomas424242.svgd.resource.svgd"
          download-size="0"
          install-size="0"
