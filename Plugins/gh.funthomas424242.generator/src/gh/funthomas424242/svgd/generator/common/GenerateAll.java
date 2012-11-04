@@ -87,8 +87,8 @@ public class GenerateAll {
 				.toFile(), arguments);
 		monitor.worked(1);
 		String generationID = org.eclipse.acceleo.engine.utils.AcceleoLaunchingUtil
-				.computeUIProjectID("net.sf.devtool.svgd.generator",
-						"net.sf.devtool.svgd.generator.main", modelURI
+				.computeUIProjectID("gh.funthomas424242.svgd.generator",
+						"gh.funthomas424242.svgd.generator.main", modelURI
 								.toString(), targetFolder.getFullPath()
 								.toString(), new ArrayList<String>());
 		gen0.setGenerationID(generationID);

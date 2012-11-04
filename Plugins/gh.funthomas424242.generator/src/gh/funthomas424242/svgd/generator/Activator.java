@@ -21,7 +21,7 @@ public class Activator extends AbstractUIPlugin {
 	/**
 	 * The plug-in ID.
 	 */
-	public static final String PLUGIN_ID = "net.sf.devtool.svgd.generator";
+	public static final String PLUGIN_ID = "gh.funthomas424242.svgd.generator";
 
 	/**
 	 * The shared instance.
