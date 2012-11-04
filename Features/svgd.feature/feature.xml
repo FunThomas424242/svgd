@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="svgd.feature"
+      id="gh.funthomas424242.svgd.feature"
       label="SVGD(sl)"
       version="1.0.0"
       provider-name="FunThomas424242">
@@ -16,7 +16,7 @@
    <license url="http://www.gnu.de/documents/lgpl.de.html">
       LGPL v3.0
    </license>
-   
+
    <plugin
          id="gh.funthomas424242.svgd"
          download-size="0"
