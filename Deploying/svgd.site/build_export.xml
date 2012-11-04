@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="feature_export" name="build">
 	<target name="feature_export">
-		<pde.exportFeatures destination="C:\tmp" exportSource="false" exportType="zip" features="svgd.feature" filename="svgd-site_1.0.0.zip" qualifier="snapshot" useJARFormat="true"/>
+		<pde.exportFeatures destination="C:\tmp" exportSource="false" exportType="zip" features="gh.funthomas424242.svgd.feature" filename="svgd-site_1.0.0.zip" qualifier="snapshot" useJARFormat="true"/>
 	</target>
 </project>
