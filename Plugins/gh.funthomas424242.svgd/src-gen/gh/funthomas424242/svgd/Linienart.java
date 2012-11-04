@@ -1,0 +1,250 @@
+/**
+ */
+package gh.funthomas424242.svgd;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+import org.eclipse.emf.common.util.Enumerator;
+
+/**
+ * <!-- begin-user-doc -->
+ * A representation of the literals of the enumeration '<em><b>Linienart</b></em>',
+ * and utility methods for working with them.
+ * <!-- end-user-doc -->
+ * @see gh.funthomas424242.svgd.SvgdPackage#getLinienart()
+ * @model
+ * @generated
+ */
+public enum Linienart implements Enumerator
+{
+  /**
+   * The '<em><b>Durchgezogen</b></em>' literal object.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #DURCHGEZOGEN_VALUE
+   * @generated
+   * @ordered
+   */
+  DURCHGEZOGEN(0, "durchgezogen", "durchgezogen"),
+
+  /**
+   * The '<em><b>Gestrichelt</b></em>' literal object.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #GESTRICHELT_VALUE
+   * @generated
+   * @ordered
+   */
+  GESTRICHELT(1, "gestrichelt", "gestrichelt"),
+
+  /**
+   * The '<em><b>Gepunktet</b></em>' literal object.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @see #GEPUNKTET_VALUE
+   * @generated
+   * @ordered
+   */
+  GEPUNKTET(2, "gepunktet", "gepunktet");
+
+  /**
+   * The '<em><b>Durchgezogen</b></em>' literal value.
+   * <!-- begin-user-doc -->
+   * <p>
+   * If the meaning of '<em><b>Durchgezogen</b></em>' literal object isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
+   * @see #DURCHGEZOGEN
+   * @model name="durchgezogen"
+   * @generated
+   * @ordered
+   */
+  public static final int DURCHGEZOGEN_VALUE = 0;
+
+  /**
+   * The '<em><b>Gestrichelt</b></em>' literal value.
+   * <!-- begin-user-doc -->
+   * <p>
+   * If the meaning of '<em><b>Gestrichelt</b></em>' literal object isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
+   * @see #GESTRICHELT
+   * @model name="gestrichelt"
+   * @generated
+   * @ordered
+   */
+  public static final int GESTRICHELT_VALUE = 1;
+
+  /**
+   * The '<em><b>Gepunktet</b></em>' literal value.
+   * <!-- begin-user-doc -->
+   * <p>
+   * If the meaning of '<em><b>Gepunktet</b></em>' literal object isn't clear,
+   * there really should be more of a description here...
+   * </p>
+   * <!-- end-user-doc -->
+   * @see #GEPUNKTET
+   * @model name="gepunktet"
+   * @generated
+   * @ordered
+   */
+  public static final int GEPUNKTET_VALUE = 2;
+
+  /**
+   * An array of all the '<em><b>Linienart</b></em>' enumerators.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  private static final Linienart[] VALUES_ARRAY =
+    new Linienart[]
+    {
+      DURCHGEZOGEN,
+      GESTRICHELT,
+      GEPUNKTET,
+    };
+
+  /**
+   * A public read-only list of all the '<em><b>Linienart</b></em>' enumerators.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public static final List<Linienart> VALUES = Collections.unmodifiableList(Arrays.asList(VALUES_ARRAY));
+
+  /**
+   * Returns the '<em><b>Linienart</b></em>' literal with the specified literal value.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public static Linienart get(String literal)
+  {
+    for (int i = 0; i < VALUES_ARRAY.length; ++i)
+    {
+      Linienart result = VALUES_ARRAY[i];
+      if (result.toString().equals(literal))
+      {
+        return result;
+      }
+    }
+    return null;
+  }
+
+  /**
+   * Returns the '<em><b>Linienart</b></em>' literal with the specified name.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public static Linienart getByName(String name)
+  {
+    for (int i = 0; i < VALUES_ARRAY.length; ++i)
+    {
+      Linienart result = VALUES_ARRAY[i];
+      if (result.getName().equals(name))
+      {
+        return result;
+      }
+    }
+    return null;
+  }
+
+  /**
+   * Returns the '<em><b>Linienart</b></em>' literal with the specified integer value.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public static Linienart get(int value)
+  {
+    switch (value)
+    {
+      case DURCHGEZOGEN_VALUE: return DURCHGEZOGEN;
+      case GESTRICHELT_VALUE: return GESTRICHELT;
+      case GEPUNKTET_VALUE: return GEPUNKTET;
+    }
+    return null;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  private final int value;
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  private final String name;
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  private final String literal;
+
+  /**
+   * Only this class can construct instances.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  private Linienart(int value, String name, String literal)
+  {
+    this.value = value;
+    this.name = name;
+    this.literal = literal;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public int getValue()
+  {
+    return value;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public String getName()
+  {
+    return name;
+  }
+
+  /**
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  public String getLiteral()
+  {
+    return literal;
+  }
+
+  /**
+   * Returns the literal value of the enumerator, which is its string representation.
+   * <!-- begin-user-doc -->
+   * <!-- end-user-doc -->
+   * @generated
+   */
+  @Override
+  public String toString()
+  {
+    return literal;
+  }
+  
+} //Linienart
