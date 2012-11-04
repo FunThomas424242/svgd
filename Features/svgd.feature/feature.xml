@@ -6,11 +6,11 @@
       provider-name="FunThomas424242">
 
    <description url="http://www.example.com/description">
-      LGPL 2.0 ff.
+      SVGD = SVG DSL is a dsl (domain specific language) to design svg figures.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
+   <copyright url="http://www.gnu.de/documents/lgpl.de.html">
+      LGPL v3.0
    </copyright>
 
    <license url="http://www.example.com/license">
