@@ -10,7 +10,7 @@ git:https://github.com/DevBoost/BuildBoost.git!Extensions/UpdateSite/
  
  
 //Only dependencies without the rootRepository ->duplicate target exception
-//git:https://github.com/FunThomas424242/com.github.funthomas424242.svgd.git
+//git:https://github.com/FunThomas424242/com.github.funthomas424242.gedcoml.git
 
 // EMFText
 git:https://github.com/DevBoost/EMFText.git!Core/Access/
@@ -54,6 +54,8 @@ get:http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/modeling/emf/validation
 //get:http://download.forge.objectweb.org/acceleo/acceleo-2.8.0-runtime.zip
 //get:http://download.forge.objectweb.org/acceleo/acceleo-2.8.0-sdk.zip
 //get:http://download.forge.objectweb.org/acceleo/eclipse-modeling-indigo-win32.zip
+
+
 
 // Feedback
 git:https://github.com/DevBoost/Feedback.git!Core/
