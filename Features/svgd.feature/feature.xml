@@ -5,7 +5,7 @@
       version="1.0.0"
       provider-name="FunThomas424242">
 
-   <description url="http://www.example.com/description">
+   <description url="https://github.com/FunThomas424242/svgd">
       SVGD = SVG DSL is a dsl (domain specific language) to design svg figures.
    </description>
 
@@ -13,10 +13,10 @@
       LGPL v3.0
    </copyright>
 
-   <license url="http://www.example.com/license">
-      [Enter License Description here.]
+   <license url="http://www.gnu.de/documents/lgpl.de.html">
+      LGPL v3.0
    </license>
-
+   
    <plugin
          id="gh.funthomas424242.svgd"
          download-size="0"
