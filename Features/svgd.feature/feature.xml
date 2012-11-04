@@ -6,7 +6,7 @@
       provider-name="FunThomas424242">
 
    <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+      LGPL 2.0 ff.
    </description>
 
    <copyright url="http://www.example.com/copyright">
@@ -40,13 +40,6 @@
 
    <plugin
          id="gh.funthomas424242.svgd.resource.svgd.ui"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.emftext.commons.antlr3_4_0"
          download-size="0"
          install-size="0"
          version="0.0.0"
