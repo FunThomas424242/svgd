@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Acceleo SVGD to SVG Module IDE Plug-in
+Bundle-SymbolicName: gh.funthomas424242.svgd.generator;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: gh.funthomas424242.svgd.generator.Activator
+Bundle-Vendor: Eclipse Modeling Project
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources, 
+ gh.funthomas424242.svgd,
+ org.eclipse.emf.ecore,
+ org.eclipse.emf.ecore.xmi,
+ org.eclipse.ocl,
+ org.eclipse.ocl.ecore,
+ org.eclipse.acceleo.model,
+ org.eclipse.acceleo.engine
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Eclipse-LazyStart: true
+Export-Package: gh.funthomas424242.svgd.generator;
+  uses:="org.eclipse.emf.ecore.resource,
+   org.eclipse.emf.ecore,
+   org.eclipse.emf.common.util,
+   org.eclipse.acceleo.engine.generation.strategy,
+   org.eclipse.ui.plugin,
+   org.osgi.framework,
+   org.eclipse.acceleo.engine.service",
+ gh.funthomas424242.svgd.generator.common;uses:="org.eclipse.core.runtime,org.eclipse.emf.common.util,org.eclipse.core.resources",
+ gh.funthomas424242.svgd.generator.popupMenus;
+  uses:="org.eclipse.jface.action,
+   org.eclipse.ui,
+   org.eclipse.ui.actions,
+   org.eclipse.jface.viewers"
