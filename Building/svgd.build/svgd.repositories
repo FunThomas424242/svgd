@@ -1,5 +1,5 @@
-// The git repository at eclpise.org that contains the slideshow example.
-// Use the 'git:' prefix to clone a git repository.
+//Only dependencies without the rootRepository ->duplicate target exception
+ 
  
 // Remote BuildBoost Extensions
 git:C:\Users\SchubertT006\git\BuildBoost!Extensions/EMF/
@@ -7,10 +7,6 @@ git:C:\Users\SchubertT006\git\BuildBoost!Extensions/EMFText/
 git:C:\Users\SchubertT006\git\BuildBoost!Extensions/EMFTextExamples/
 git:C:\Users\SchubertT006\git\BuildBoost!Extensions/JUnit/
 git:C:\Users\SchubertT006\git\BuildBoost!Extensions/UpdateSite/
- 
- 
-//Only dependencies without the rootRepository ->duplicate target exception
-//git:https://github.com/FunThomas424242/com.github.funthomas424242.gedcoml.git
 
 // EMFText
 git:https://github.com/DevBoost/EMFText.git!Core/Access/
