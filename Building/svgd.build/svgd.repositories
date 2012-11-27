@@ -2,11 +2,11 @@
  
  
 // Remote BuildBoost Extensions
-git:C:\Users\SchubertT006\git\BuildBoost!Extensions/EMF/
-git:C:\Users\SchubertT006\git\BuildBoost!Extensions/EMFText/
-git:C:\Users\SchubertT006\git\BuildBoost!Extensions/EMFTextExamples/
-git:C:\Users\SchubertT006\git\BuildBoost!Extensions/JUnit/
-git:C:\Users\SchubertT006\git\BuildBoost!Extensions/UpdateSite/
+git:https://github.com/DevBoost/BuildBoost.git!Extensions/EMF/
+git:https://github.com/DevBoost/BuildBoost.git!Extensions/EMFText/
+git:https://github.com/DevBoost/BuildBoost.git!Extensions/EMFTextExamples/
+git:https://github.com/DevBoost/BuildBoost.git!Extensions/JUnit/
+git:https://github.com/DevBoost/BuildBoost.git!Extensions/UpdateSite/
 
 // EMFText
 git:https://github.com/DevBoost/EMFText.git!Core/Access/
