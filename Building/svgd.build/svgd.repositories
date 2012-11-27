@@ -39,7 +39,7 @@ get:http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/modeling/emf/validation
 get:http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/modeling/emf/validation/downloads/drops/1.6.0/R201206271200/emf-validation-runtime-1.6.0.zip!eclipse/features/org.eclipse.emf.validation_1.6.0.v20120328-0001-479-9oB56N5BBR6LCA6/feature.xml
 
 //Dependencies for Acceleo
-//get:http://repo1.maven.org/maven2/com/google/guava/guava/13.0-rc1/guava-13.0-rc1.jar
+get:http://repo1.maven.org/maven2/com/google/guava/guava/13.0-rc1/guava-13.0-rc1.jar
 //get:http://www.java2s.com/Code/JarDownload/org.eclipse.help/org.eclipse.help.appserver_3.1.400.v20100427.jar.zip
 //get:http://ftp.halifax.rwth-aachen.de/eclipse//modeling/mdt/ocl/downloads/drops/4.0.1/R201209171739/mdt-ocl-CoreSDK-core-4.0.1.zip
 //get:http://ftp.halifax.rwth-aachen.de/eclipse//modeling/m2t/acceleo/downloads/drops/3.3.0/R201205291042/m2t-acceleo-SDK-3.3.0.zip
