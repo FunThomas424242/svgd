@@ -51,7 +51,7 @@ get:http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/modeling/emf/validation
 //get:http://download.forge.objectweb.org/acceleo/acceleo-2.8.0-sdk.zip
 //get:http://download.forge.objectweb.org/acceleo/eclipse-modeling-indigo-win32.zip
 //git:https://github.com/eclipse/acceleo.git
-http://eclipse.c3sl.ufpr.br/modeling/m2t/acceleo/downloads/drops/3.3.1/R201208310923/m2t-acceleo-SDK-3.3.1.zip
+get:http://eclipse.c3sl.ufpr.br/modeling/m2t/acceleo/downloads/drops/3.3.1/R201208310923/m2t-acceleo-SDK-3.3.1.zip
 
 
 
