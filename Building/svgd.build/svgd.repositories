@@ -30,7 +30,7 @@ get:http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/eclipse/downloads/drops
 get:http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/eclipse/downloads/drops/R-3.7.2-201202080800/eclipse-3.7.2-delta-pack.zip
 get:http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/eclipse/downloads/drops/R-3.7.2-201202080800/org.eclipse.jdt-3.7.2.zip
 
-// EMF
+// EMF 
 get:http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/modeling/emf/emf/downloads/drops/2.8.0/R201206080554/emf-xsd-SDK-2.8.0.zip
 // EMF Validation (core plugin and feature)
 get:http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/modeling/emf/validation/downloads/drops/1.6.0/R201206271200/emf-validation-runtime-1.6.0.zip!eclipse/plugins/org.eclipse.emf.validation_1.4.0.v20100428-2315.jar
