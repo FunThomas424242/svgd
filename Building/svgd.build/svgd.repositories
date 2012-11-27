@@ -50,6 +50,7 @@ get:http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/modeling/emf/validation
 //get:http://download.forge.objectweb.org/acceleo/acceleo-2.8.0-runtime.zip
 //get:http://download.forge.objectweb.org/acceleo/acceleo-2.8.0-sdk.zip
 //get:http://download.forge.objectweb.org/acceleo/eclipse-modeling-indigo-win32.zip
+git:https://github.com/eclipse/acceleo.git
 
 
 
