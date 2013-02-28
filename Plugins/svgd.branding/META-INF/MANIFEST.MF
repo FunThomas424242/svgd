@@ -4,3 +4,12 @@ Bundle-Name: Branding
 Bundle-SymbolicName: svgd.branding;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.swt,
+ javax.inject,
+ org.eclipse.e4.core.di,
+ org.eclipse.e4.ui.workbench,
+ org.eclipse.e4.ui.di,
+ org.eclipse.e4.ui.services,
+ org.eclipse.e4.core.di.extensions
+Import-Package: javax.annotation
