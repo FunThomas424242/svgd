@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="ASCII"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_qpO0cIH6EeK7pJVp8J9l9g" elementId="svgdeditor.application">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_xcKg0IH6EeK7pJVp8J9l9g" elementId="svgdeditor.trimmedwindow" label="SVGD Editor" x="100" y="100" width="400" height="600"/>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_qpO0cIH6EeK7pJVp8J9l9g" elementId="svgdeditor.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_xcKg0IH6EeK7pJVp8J9l9g" elementId="svgdeditor.trimmedwindow" label="SVGD Editor" x="100" y="100" width="400" height="600">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_st1wEIJ0EeKMVYeSBO6qlQ" elementId="svgd.branding.perspectivestack">
+      <children xsi:type="advanced:Perspective" xmi:id="_xf2tkIJ0EeKMVYeSBO6qlQ" elementId="svgd.branding.perspective.0" label="ToDo">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_5qho8IJ0EeKMVYeSBO6qlQ" elementId="svgd.branding.partsashcontainer.main" containerData="" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_yN2mkIJ1EeKMVYeSBO6qlQ" elementId="svgd.branding.partstack.todo" containerData="40">
+            <children xsi:type="basic:Part" xmi:id="_GG4mgIJ2EeKMVYeSBO6qlQ" elementId="svgd.branding.part.todooverview" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.parts.TodoOverviewPart" label="TODOs">
+              <toolbar xmi:id="__0ie4IKaEeKMVYeSBO6qlQ" elementId="svgd.branding.toolbar.0"/>
+            </children>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_4QO_wIJ1EeKMVYeSBO6qlQ" elementId="svgd.branding.partsashcontainer.right" containerData="60">
+            <children xsi:type="basic:PartStack" xmi:id="_7ePM0IJ1EeKMVYeSBO6qlQ" elementId="svgd.branding.partstack.0">
+              <children xsi:type="basic:Part" xmi:id="_KUcMEIJ2EeKMVYeSBO6qlQ" elementId="svgd.branding.part.tododetails" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.parts.TodoDetailsPart" label="Details"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_-7zf4IJ1EeKMVYeSBO6qlQ" elementId="svgd.branding.partstack.1">
+              <children xsi:type="basic:Part" xmi:id="_Oyd2kIJ2EeKMVYeSBO6qlQ" elementId="svgd.branding.part.playground" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.parts.PlaygroundPart" label="Playground"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+  </children>
   <addons xmi:id="_qpO0cYH6EeK7pJVp8J9l9g" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_qpO0coH6EeK7pJVp8J9l9g" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_qpO0c4H6EeK7pJVp8J9l9g" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
