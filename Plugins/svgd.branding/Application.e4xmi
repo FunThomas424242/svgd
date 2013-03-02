@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="ASCII"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_qpO0cIH6EeK7pJVp8J9l9g" elementId="svgdeditor.application">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_xcKg0IH6EeK7pJVp8J9l9g" elementId="svgdeditor.trimmedwindow" label="SVGD Editor" x="100" y="100" width="400" height="600">
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_qpO0cIH6EeK7pJVp8J9l9g" elementId="svgdeditor.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_xcKg0IH6EeK7pJVp8J9l9g" elementId="svgdeditor.trimmedwindow" label="SVGD Editor" x="100" y="100" width="1000" height="600">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_st1wEIJ0EeKMVYeSBO6qlQ" elementId="svgd.branding.perspectivestack">
       <children xsi:type="advanced:Perspective" xmi:id="_xf2tkIJ0EeKMVYeSBO6qlQ" elementId="svgd.branding.perspective.0" label="ToDo">
         <children xsi:type="basic:PartSashContainer" xmi:id="_5qho8IJ0EeKMVYeSBO6qlQ" elementId="svgd.branding.partsashcontainer.main" containerData="" horizontal="true">
           <children xsi:type="basic:PartStack" xmi:id="_yN2mkIJ1EeKMVYeSBO6qlQ" elementId="svgd.branding.partstack.todo" containerData="40">
-            <children xsi:type="basic:Part" xmi:id="_GG4mgIJ2EeKMVYeSBO6qlQ" elementId="svgd.branding.part.todooverview" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.parts.TodoOverviewPart" label="TODOs">
+            <children xsi:type="basic:Part" xmi:id="_GG4mgIJ2EeKMVYeSBO6qlQ" elementId="svgd.branding.part.todooverview" containerData="" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.parts.TodoOverviewPart" label="TODOs">
+              <menus xmi:id="_5WEV4IK2EeKMVYeSBO6qlQ" elementId="svgd.branding.menu">
+                <tags>ViewMenu</tags>
+              </menus>
               <toolbar xmi:id="__0ie4IKaEeKMVYeSBO6qlQ" elementId="svgd.branding.toolbar.0"/>
             </children>
           </children>
           <children xsi:type="basic:PartSashContainer" xmi:id="_4QO_wIJ1EeKMVYeSBO6qlQ" elementId="svgd.branding.partsashcontainer.right" containerData="60">
             <children xsi:type="basic:PartStack" xmi:id="_7ePM0IJ1EeKMVYeSBO6qlQ" elementId="svgd.branding.partstack.0">
-              <children xsi:type="basic:Part" xmi:id="_KUcMEIJ2EeKMVYeSBO6qlQ" elementId="svgd.branding.part.tododetails" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.parts.TodoDetailsPart" label="Details"/>
+              <children xsi:type="basic:Part" xmi:id="_KUcMEIJ2EeKMVYeSBO6qlQ" elementId="svgd.branding.part.tododetails" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.parts.TodoDetailsPart" label="Details">
+                <handlers xmi:id="_6ZVaoIK_EeKMVYeSBO6qlQ" elementId="svgd.branding.handler.popUp" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.TestHandler" command="_iMe1EIK_EeKMVYeSBO6qlQ"/>
+                <menus xsi:type="menu:PopupMenu" xmi:id="_MBLUsIK4EeKMVYeSBO6qlQ" elementId="svgd.branding.popupmenu.table" label="Table Menu">
+                  <children xsi:type="menu:HandledMenuItem" xmi:id="_OvTu4IK4EeKMVYeSBO6qlQ" elementId="svgd.branding.handledmenuitem.test" label="For Test Only" command="_iMe1EIK_EeKMVYeSBO6qlQ"/>
+                </menus>
+              </children>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_-7zf4IJ1EeKMVYeSBO6qlQ" elementId="svgd.branding.partstack.1">
               <children xsi:type="basic:Part" xmi:id="_Oyd2kIJ2EeKMVYeSBO6qlQ" elementId="svgd.branding.part.playground" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.parts.PlaygroundPart" label="Playground"/>
@@ -20,7 +28,31 @@
         </children>
       </children>
     </children>
+    <mainMenu xmi:id="_B9hjYINFEeK-IY_7U6A9NQ" elementId="svgd.branding.menu.main">
+      <children xsi:type="menu:Menu" xmi:id="_RrNkQINFEeK-IY_7U6A9NQ" elementId="svgd.branding.menu.file" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_aTgPwINFEeK-IY_7U6A9NQ" elementId="svgd.branding.handledmenuitem.save" label="Save" command="_hNXhAIM5EeK-IY_7U6A9NQ"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_geGJwINFEeK-IY_7U6A9NQ" elementId="svgd.branding.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_cXlAUINFEeK-IY_7U6A9NQ" elementId="svgd.branding.handledmenuitem.exit" label="Exit" command="_s48-YIM5EeK-IY_7U6A9NQ"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_VAgFEINFEeK-IY_7U6A9NQ" elementId="svgd.branding.menu.edit" label="Edit">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_u1peIINFEeK-IY_7U6A9NQ" elementId="svgd.branding.handledmenuitem.new" label="New Todo" command="_zwlkkIM5EeK-IY_7U6A9NQ"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_zZvUYINFEeK-IY_7U6A9NQ" elementId="svgd.branding.menuseparator.1"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_z8FzgINFEeK-IY_7U6A9NQ" elementId="svgd.branding.handledmenuitem.remove" label="Remove Todo" command="_5-1PgIM5EeK-IY_7U6A9NQ"/>
+      </children>
+    </mainMenu>
   </children>
+  <handlers xmi:id="_uuuBoINDEeK-IY_7U6A9NQ" elementId="svgd.branding.handler.save" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.SaveAllHandler" command="_hNXhAIM5EeK-IY_7U6A9NQ"/>
+  <handlers xmi:id="_2T97wINDEeK-IY_7U6A9NQ" elementId="svgd.branding.handler.exit" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.ExitHandler" command="_s48-YIM5EeK-IY_7U6A9NQ"/>
+  <handlers xmi:id="_XVh4MINEEeK-IY_7U6A9NQ" elementId="svgd.branding.handler.new" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.NewTodoHandler" command="_zwlkkIM5EeK-IY_7U6A9NQ"/>
+  <handlers xmi:id="_jGzt4INEEeK-IY_7U6A9NQ" elementId="svgd.branding.handler.remove" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.RemoveTodoHandler" command="_5-1PgIM5EeK-IY_7U6A9NQ"/>
+  <handlers xmi:id="_xbJWMINEEeK-IY_7U6A9NQ" elementId="svgd.branding.handler.test" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.TestHandler" command="_iMe1EIK_EeKMVYeSBO6qlQ"/>
+  <commands xmi:id="_hNXhAIM5EeK-IY_7U6A9NQ" elementId="org.eclipse.ui.file.saveAll" commandName="Save"/>
+  <commands xmi:id="_s48-YIM5EeK-IY_7U6A9NQ" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
+  <commands xmi:id="_zwlkkIM5EeK-IY_7U6A9NQ" elementId="svgd.branding.command.new" commandName="New Todo"/>
+  <commands xmi:id="_5-1PgIM5EeK-IY_7U6A9NQ" elementId="svgd.branding.command.remove" commandName="Remove Todo"/>
+  <commands xmi:id="_iMe1EIK_EeKMVYeSBO6qlQ" elementId="svgd.branding.command.test" commandName="For testing">
+    <parameters xmi:id="_qhvP0IK_EeKMVYeSBO6qlQ" elementId="svgd.branding.commandparameter.input" name="Input"/>
+  </commands>
   <addons xmi:id="_qpO0cYH6EeK7pJVp8J9l9g" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_qpO0coH6EeK7pJVp8J9l9g" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_qpO0c4H6EeK7pJVp8J9l9g" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
