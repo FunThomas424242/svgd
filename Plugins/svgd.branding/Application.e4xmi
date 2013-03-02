@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_qpO0cIH6EeK7pJVp8J9l9g" elementId="svgdeditor.application">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_xcKg0IH6EeK7pJVp8J9l9g" elementId="svgdeditor.trimmedwindow" label="SVGD Editor" x="100" y="100" width="1000" height="600">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_xcKg0IH6EeK7pJVp8J9l9g" elementId="svgdeditor.trimmedwindow" label="SVGD Editor" bindingContexts="_LYx64INbEeK-IY_7U6A9NQ" x="100" y="100" width="1000" height="600">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_st1wEIJ0EeKMVYeSBO6qlQ" elementId="svgd.branding.perspectivestack">
       <children xsi:type="advanced:Perspective" xmi:id="_xf2tkIJ0EeKMVYeSBO6qlQ" elementId="svgd.branding.perspective.0" label="ToDo">
         <children xsi:type="basic:PartSashContainer" xmi:id="_5qho8IJ0EeKMVYeSBO6qlQ" elementId="svgd.branding.partsashcontainer.main" containerData="" horizontal="true">
@@ -22,7 +22,7 @@
               </children>
             </children>
             <children xsi:type="basic:PartStack" xmi:id="_-7zf4IJ1EeKMVYeSBO6qlQ" elementId="svgd.branding.partstack.1">
-              <children xsi:type="basic:Part" xmi:id="_Oyd2kIJ2EeKMVYeSBO6qlQ" elementId="svgd.branding.part.playground" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.parts.PlaygroundPart" label="Playground"/>
+              <children xsi:type="basic:Part" xmi:id="_Oyd2kIJ2EeKMVYeSBO6qlQ" elementId="svgd.branding.part.playground" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.parts.PlaygroundPart" label="Playground" bindingContexts="_xuY48INdEeK-IY_7U6A9NQ"/>
             </children>
           </children>
         </children>
@@ -40,12 +40,27 @@
         <children xsi:type="menu:HandledMenuItem" xmi:id="_z8FzgINFEeK-IY_7U6A9NQ" elementId="svgd.branding.handledmenuitem.remove" label="Remove Todo" command="_5-1PgIM5EeK-IY_7U6A9NQ"/>
       </children>
     </mainMenu>
+    <trimBars xmi:id="_Tet9sINPEeK-IY_7U6A9NQ" elementId="svgd.branding.trimbar.main">
+      <children xsi:type="menu:ToolBar" xmi:id="_eDBC4INPEeK-IY_7U6A9NQ" elementId="svgd.branding.toolbar.main">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_k9Xl4INPEeK-IY_7U6A9NQ" elementId="svgd.branding.handledtoolitem.save" label="Save" command="_hNXhAIM5EeK-IY_7U6A9NQ"/>
+      </children>
+    </trimBars>
   </children>
   <handlers xmi:id="_uuuBoINDEeK-IY_7U6A9NQ" elementId="svgd.branding.handler.save" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.SaveAllHandler" command="_hNXhAIM5EeK-IY_7U6A9NQ"/>
   <handlers xmi:id="_2T97wINDEeK-IY_7U6A9NQ" elementId="svgd.branding.handler.exit" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.ExitHandler" command="_s48-YIM5EeK-IY_7U6A9NQ"/>
   <handlers xmi:id="_XVh4MINEEeK-IY_7U6A9NQ" elementId="svgd.branding.handler.new" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.NewTodoHandler" command="_zwlkkIM5EeK-IY_7U6A9NQ"/>
   <handlers xmi:id="_jGzt4INEEeK-IY_7U6A9NQ" elementId="svgd.branding.handler.remove" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.RemoveTodoHandler" command="_5-1PgIM5EeK-IY_7U6A9NQ"/>
   <handlers xmi:id="_xbJWMINEEeK-IY_7U6A9NQ" elementId="svgd.branding.handler.test" contributionURI="bundleclass://svgd.branding/com.example.e4.rcp.todo.handler.TestHandler" command="_iMe1EIK_EeKMVYeSBO6qlQ"/>
+  <bindingTables xmi:id="_UhrZEINbEeK-IY_7U6A9NQ" elementId="svgd.branding.bindingtable.window" bindingContext="_LYx64INbEeK-IY_7U6A9NQ">
+    <bindings xmi:id="_c27z0INbEeK-IY_7U6A9NQ" elementId="svgd.branding.keybinding.save" keySequence="M1+S" command="_hNXhAIM5EeK-IY_7U6A9NQ"/>
+    <bindings xmi:id="_r1ePsINbEeK-IY_7U6A9NQ" elementId="svgd.branding.keybinding.exit" keySequence="M3+F4" command="_s48-YIM5EeK-IY_7U6A9NQ"/>
+  </bindingTables>
+  <bindingTables xmi:id="_x5r_cINcEeK-IY_7U6A9NQ" elementId="svgd.branding.bindingtable.emacs" bindingContext="_xuY48INdEeK-IY_7U6A9NQ">
+    <bindings xmi:id="_3YVZcINcEeK-IY_7U6A9NQ" elementId="svgd.branding.keybinding.save" keySequence="M1+X M1+S" command="_hNXhAIM5EeK-IY_7U6A9NQ"/>
+    <bindings xmi:id="_D1SCUINdEeK-IY_7U6A9NQ" elementId="svgd.branding.keybinding.exit" keySequence="M1+X M1+C" command="_s48-YIM5EeK-IY_7U6A9NQ"/>
+  </bindingTables>
+  <rootContext xmi:id="_LYx64INbEeK-IY_7U6A9NQ" elementId="svgd.branding.bindingcontext.windows" name="Window Binding Context"/>
+  <rootContext xmi:id="_xuY48INdEeK-IY_7U6A9NQ" elementId="svgd.branding.bindingcontext.emacs" name="Emacs Binding Context"/>
   <commands xmi:id="_hNXhAIM5EeK-IY_7U6A9NQ" elementId="org.eclipse.ui.file.saveAll" commandName="Save"/>
   <commands xmi:id="_s48-YIM5EeK-IY_7U6A9NQ" elementId="org.eclipse.ui.file.exit" commandName="Exit"/>
   <commands xmi:id="_zwlkkIM5EeK-IY_7U6A9NQ" elementId="svgd.branding.command.new" commandName="New Todo"/>
