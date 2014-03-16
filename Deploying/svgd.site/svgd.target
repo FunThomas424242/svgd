@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="SVGD Developer Platform Definition" sequenceNumber="40">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.jdt.feature.group" version="3.9.2.v20140221-1700"/>
+<unit id="org.eclipse.jdt.source.feature.group" version="3.9.2.v20140221-1700"/>
+<unit id="org.eclipse.platform.ide" version="4.3.2.M20140221-1700"/>
+<unit id="org.eclipse.e4.rcp.source.feature.group" version="1.2.2.v20140206-1358"/>
+<unit id="org.eclipse.e4.rcp.feature.group" version="1.2.2.v20140206-1358"/>
+<unit id="org.eclipse.jdt.source.feature.group" version="3.9.2.v20140221-1700"/>
+<unit id="org.eclipse.pde.source.feature.group" version="3.9.1.v20140221-1700"/>
+<unit id="org.eclipse.rcp.source.feature.group" version="4.3.2.v20140221-1700"/>
+<unit id="org.eclipse.platform.sdk" version="4.3.2.M20140221-1700"/>
+<unit id="org.eclipse.rcp.feature.group" version="4.3.2.v20140221-1700"/>
+<unit id="org.eclipse.jdt.feature.group" version="3.9.2.v20140221-1700"/>
+<unit id="org.eclipse.pde.feature.group" version="3.9.1.v20140221-1700"/>
+<unit id="org.eclipse.cvs.source.feature.group" version="1.4.0.v20140221-1700"/>
+<unit id="org.eclipse.platform.ide" version="4.3.2.M20140221-1700"/>
+<unit id="org.eclipse.cvs.feature.group" version="1.4.0.v20140221-1700"/>
+<repository location="http://download.eclipse.org/eclipse/updates/4.3"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="epp.package.modeling" version="2.0.2.20140224-0000"/>
+<unit id="epp.package.testing" version="2.0.2.20140224-0000"/>
+<repository location="http://download.eclipse.org/releases/kepler/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.common.feature.group" version="2.9.2.v20131212-0545"/>
+<unit id="org.eclipse.emf.ecore.feature.group" version="2.9.2.v20131212-0545"/>
+<unit id="org.eclipse.emf.feature.group" version="2.9.2.v20140203-1126"/>
+<unit id="org.eclipse.emf.sdk.feature.group" version="2.9.2.v20140203-1126"/>
+<repository location="http://download.eclipse.org/modeling/emf/emf/updates/releases/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.emftext.commons.layout.feature.group" version="1.4.1.v201207310007"/>
+<unit id="org.emftext.sdk.feature.group" version="1.4.1.v201207310007"/>
+<unit id="de.devboost.emfcustomize.feature.group" version="0.5.0.v201207310007"/>
+<unit id="org.emftext.commons.jdt.feature.group" version="1.4.1.v201207310007"/>
+<unit id="org.emftext.access.feature.group" version="1.4.1.v201207310007"/>
+<unit id="org.emftext.commons.antlr3_4_0.feature.group" version="3.4.0.v201207310007"/>
+<repository location="http://www.emftext.org/update/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.jgit.pgm.feature.group" version="3.3.0.201403021825-r"/>
+<unit id="org.eclipse.jgit.java7.feature.group" version="3.3.0.201403021825-r"/>
+<unit id="org.eclipse.jgit.source.feature.group" version="3.3.0.201403021825-r"/>
+<unit id="org.eclipse.jgit.pgm.source.feature.group" version="3.3.0.201403021825-r"/>
+<unit id="org.eclipse.jgit.http.apache.feature.group" version="3.3.0.201403021825-r"/>
+<unit id="org.eclipse.jgit.feature.group" version="3.3.0.201403021825-r"/>
+<unit id="org.eclipse.egit.mylyn.feature.group" version="3.3.0.201403021825-r"/>
+<unit id="org.eclipse.egit.source.feature.group" version="3.3.0.201403021825-r"/>
+<unit id="org.eclipse.egit.feature.group" version="3.3.0.201403021825-r"/>
+<repository location="http://download.eclipse.org/egit/updates"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.14.0.v20130620-0935"/>
+<unit id="org.eclipse.e4.tools.css.spy.feature.feature.group" version="0.14.0.v20130617-1345"/>
+<repository location="http://download.eclipse.org/e4/downloads/drops/R-0.14-201306242200/repository"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.acceleo.source.feature.group" version="3.4.2.201401221203"/>
+<unit id="org.eclipse.acceleo.feature.group" version="3.4.2.201401221203"/>
+<unit id="org.eclipse.m2e.wtp.feature.feature.group" version="1.0.1.20130911-1545"/>
+<unit id="org.eclipse.m2e.wtp.jaxrs.feature.feature.group" version="1.0.1.20130911-1545"/>
+<unit id="org.eclipse.m2e.wtp.jpa.feature.feature.group" version="1.0.1.e43-20130911-1546"/>
+<unit id="org.eclipse.m2e.wtp.jsf.feature.feature.group" version="1.0.1.20130911-1545"/>
+<repository location="http://download.eclipse.org/releases/kepler/201402280900"/>
+</location>
+<location path="C:\usr\eclipse-standard-kepler-SR2\eclipse\plugins\org.junit_4.11.0.v201303080030" type="Directory"/>
+</locations>
+</target>
