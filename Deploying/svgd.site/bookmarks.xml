@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmarks>
+   <site url="http://download.eclipse.org/bpel/site/" selected="true" name="BPEL Site"/>
+   <site url="http://download.eclipse.org/modeling/mdt/bpmn2/updates/milestones/S20130423/" selected="true" name="BPMN 2.0 Metamodel - Site"/>
+   <site url="http://download.eclipse.org/bpmn2-modeler/site/" selected="true" name="BPMN2 Modeler Project Composite Repository"/>
+   <site url="http://www.emftext.org/update/" selected="true" name="Dropsbox Update Site\"/>
+   <site url="http://download.eclipse.org/e4/downloads/drops/R-0.14-201306242200/repository" selected="true" name="e4 tools"/>
+   <site url="http://download.eclipse.org/releases/kepler/" selected="true" name="Eclipse Kepler repository"/>
+   <site url="http://download.eclipse.org/modeling/emf/emf/updates/" selected="true" name="Eclipse Modeling Framework (EMF) Update Site"/>
+   <site url="http://download.eclipse.org/egit/updates" selected="true" name="EGit P2 Repository"/>
+   <site url="http://download.eclipse.org/modeling/emf/emf/updates/releases/" selected="true" name="EMF Updates"/>
+   <site url="http://download.eclipse.org/graphiti/updates/0.9.2/" selected="true" name="Graphiti"/>
+   <site url="http://download.eclipse.org/releases/kepler/201402280900" selected="true" name="Kepler - SR2"/>
+   <site url="http://download.eclipse.org/eclipse/updates/4.3" selected="true" name="The Eclipse Project repository"/>
+</bookmarks>
