@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="SVGD Developer Platform Definition" sequenceNumber="40">
+<?pde version="3.8"?><target name="SVGD Developer Platform Definition" sequenceNumber="41">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.jdt.feature.group" version="3.9.2.v20140221-1700"/>
@@ -67,5 +67,12 @@
 <repository location="http://download.eclipse.org/releases/kepler/201402280900"/>
 </location>
 <location path="C:\usr\eclipse-standard-kepler-SR2\eclipse\plugins\org.junit_4.11.0.v201303080030" type="Directory"/>
+<location path="${eclipse_home}" type="Profile"/>
 </locations>
+<includeBundles>
+<plugin id="org.hamcrest.core"/>
+<plugin id="org.hamcrest.core.source"/>
+<plugin id="org.junit"/>
+<plugin id="org.junit.source"/>
+</includeBundles>
 </target>
